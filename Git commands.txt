@@ -12,6 +12,8 @@ git checkout -b <branch_name> - создание новой ветки
 
 git checkout <branch_name> - переход на новую ветку 
 
+git branch - m <old_name> <new_name>
+
 git merge <bracnh_name> - мерчь веток, если конфликт, исправляем конфлик и делаем команды  git add "" + git commit -m ""
 
 git remote -v - проверка удаленных репозиториев которые подключены
